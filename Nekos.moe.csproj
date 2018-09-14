@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>Latest</LangVersion>
+    <packageID>Nekos.moe</packageID>
+    <Version>0.1</Version>
+    <authors>Hedari</authors>
+    <description>Wrapper Around Nekos.moe Nek Images Site API</description>
+    <PackageProjectUrl>https://github.com/HedariKun/Nekos.moe</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/HedariKun/Nekos.moe</RepositoryUrl>
+    <RepositoryType>Library</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+</Project>
